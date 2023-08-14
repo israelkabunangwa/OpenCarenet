@@ -1,0 +1,78 @@
+@media only screen and (max-width: 1024px){
+  
+    .aboutDescriptionTitleDescriptionContainer_Datails_Image{width: 40%;}
+    .aboutDescriptionTitleDescriptionContainer_Datails_Para{width: 60%;}
+    .second_details{margin-top: 3rem;}
+    .aboutBenefitDescriptionImage{width: 50%;}
+    .aboutBenefitDescriptionText{width: 50%;}
+    .aboutBenefitDescriptionImage img{width:25rem;height:25rem;}
+    .contactDescriptionText{padding: 5rem 2rem 5rem 5rem;} 
+    .contactDescriptionForm{width: 50%;padding: 5rem 5rem 5rem 2rem;}   
+}
+@media only screen and (max-width: 992px){
+ 
+    .home_first_slideDescriptionContainer h1{font-size: 2.5rem;width: 90%;}
+    .aboutDescriptionTitle h1{font-size: 2.5rem;}
+    .kabContainerText{width: 100%;}
+    .kabContainerImage{display: none;}
+    .kabContainerText .kabContainerTextPara h1{font-size: 2.5rem;}
+    .aboutBenefit h1{font-size: 2.5rem;}
+    .aboutBenefitDescription{display:block;margin-top: 4rem;}
+    .aboutBenefitDescriptionImage{width: 100%;}
+    .aboutBenefitDescriptionImage img{
+        border-radius: 0%;
+        width:100%;
+        height:auto;
+    }
+    .aboutBenefitDescriptionText{width: 100%;}
+    .aboutFeaturesContainer{display: grid;grid-template-columns: repeat(2,1fr);}
+    .aboutFeaturesContainerText{margin-top: 1rem;}
+    .feature_one{background-color: white;}
+    .feature_one h1{ color: var(--primaryColor);font-size: 2rem;}
+    .feature_one p{color: var(--primaryColor); }
+}
+@media only screen and (max-width: 885px){
+    .menuList{display: none;}
+    .bars{display: block;}
+    .contactDescription{display: block;}
+    .contactDescriptionText{width: 100%;padding: 2.5rem 5rem;}
+    .contactDescriptionForm{width: 100%;padding: 2.5rem 5rem 5rem 5rem;}
+}
+@media only screen and (max-width: 750px){
+    .navBarContainer{padding: 0.5rem 2rem;}
+    .home_first_slideDescriptionContainer h1{font-size: 2rem;width: 100%;}
+    .home_first_slideDescriptionContainerPara{width: 100%;}
+    .home_first_slideDescription{padding: 6rem 2rem 2rem 2rem;}
+    .donexa img{width: 3rem; height: 3rem;}
+    .donexa{ padding: 0.5rem 2rem;}
+    .aboutHeaderTitle{padding:5rem 2rem 2rem 2rem;}
+    #globe{font-size: 1.5rem;}
+    .bars i{font-size: 1.5rem;}
+    .logo img{width:2rem;height:2rem;}
+    .aboutDescription{padding: 2rem; }
+    .aboutDescriptionTitle{width: 100%;}
+    .aboutDescriptionTitle h1{font-size: 2rem;}
+    .aboutDescriptionTitleDescriptionContainer_Datails{display: block;}
+    .aboutDescriptionTitleDescriptionContainer_Datails_Image{width: 100%;}
+    .aboutDescriptionTitleDescriptionContainer_Datails_Para{width: 100%;}
+    .aboutDescriptionTitleDescriptionContainer_DatailsInvisible{display: block;margin-top: 2rem;}
+    .aboutDescriptionTitleDescriptionContainer_DatailsInvisible_Image{width: 100%;}
+    .second_details{display: none;}
+    .one,.two{margin-top: 2rem;}
+    .kabContainerText{padding:4rem 2rem;}
+    .kabContainerText .kabContainerTextPara p{font-size: 1.5rem;line-height: 2rem;}
+    .aboutBenefit{padding: 2rem ;   }
+    .aboutBenefit h1{font-size: 2rem;width: 100%;}
+    .aboutFeatures{padding: 2rem;}
+    .aboutFeaturesContainer{grid-template-columns: repeat(1,1fr);}
+    .contact{background-color: rgb(245, 245, 245);}
+    .contactDescriptionText{padding: 2rem;}
+    .contactDescriptionTextContainer p{font-size: 1.5rem;line-height: 2rem;}
+    .contactDescriptionForm{padding: 2rem;  }
+    .contactDescriptionForm form,.contactDescriptionForm input,  .contactDescriptionForm textarea{background-color: rgb(238, 234, 234);}
+    .footerContainer p{font-size: 0.9rem;}
+    .brochureContainer{
+        padding: 2rem;
+    }
+  
+}

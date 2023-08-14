@@ -1,0 +1,122 @@
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    color: var(--secondaryColor);
+    font-family: 'Montserrat', sans-serif
+   
+}
+:root{--primaryColor: rgb(73, 168, 73); --secondaryColor:rgb(1,50, 32);}
+img{
+    width: 30%;
+    height: 400px;
+    margin-top: 2rem;
+    object-fit: contain;
+}
+p{
+    margin-top: 2rem;
+    line-height: 1.5rem;
+}
+div{
+    margin-top: 2rem;
+}
+h2,h3,h5{
+    margin-top: 2rem;
+}
+.doc-body{
+    padding: 5rem;
+    background-color:#DCDCDC;
+    display: flex;
+    justify-content: center;
+}
+.doc-body-container{
+    width: 90%;
+    padding: 5rem;
+    background-color: white;
+  
+}
+.first-img img{width: 10rem;height: auto;}
+.donexaLogo img{width: 10rem;height: auto;}
+.greatTitle{display: flex;}
+.greatTitle h1{
+    display: flex;
+    font-size: 2.5rem;
+    align-items: center;
+    color: var(--primaryColor);
+}
+.greatTitle img{
+    width: 5rem;
+    height: 5rem;
+    margin-left: 1rem;
+}
+
+.titlePara p{font-style: italic;color:gray;}
+table{margin-top: 2rem;}
+.table{
+    overflow-y:scroll;
+}
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td{
+    padding: 0.5rem;
+    text-align: center;
+}
+th{
+    padding: 0.5rem 2rem;
+}
+.horizontal-img{
+    display: block;
+    width: 100%;
+    height: 500px;
+}
+ul{margin-left: 3rem;margin-top: 2rem;}
+ul li{list-style-type:  square;line-height: 1.5rem;}
+.doc-span{
+    font-weight: bolder;
+    color: black;
+}
+.container{
+    margin-left: 3rem;
+}
+a{
+    color: blue;
+}
+button{
+    background-color: var(--primaryColor);
+    margin-top: 2rem;
+    padding: 0.5rem 2rem;
+    border: 0;
+    outline: none;
+    color: white;
+}
+
+@media only screen and (max-width: 750px){
+    img{
+        width: 100%;
+        height: 300px;
+        margin-top: 2rem;
+        object-fit: contain;
+    }
+    .greatTitle h1{
+        display: flex;
+        font-size: 1.5rem;
+        align-items: center;
+        color: var(--primaryColor);
+    }
+    .doc-body{
+        padding: 2rem;
+        
+    }
+    .doc-body-container{
+        width: 100%;
+        padding: 1rem;
+       
+    }
+    .container{
+        margin-left: 0rem;
+    }
+}
