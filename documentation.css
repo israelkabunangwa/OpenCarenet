@@ -85,13 +85,15 @@ ul li{list-style-type:  square;line-height: 1.5rem;}
 a{
     color: blue;
 }
-button{
+.a-clickable{
+    display: block;
     background-color: var(--primaryColor);
     margin-top: 2rem;
     padding: 0.5rem 2rem;
     border: 0;
     outline: none;
     color: white;
+    text-align: center;
 }
 
 @media only screen and (max-width: 750px){
